@@ -1,7 +1,5 @@
 # HarmoniFeel: The Emotive Music Matchmaker
 
-# Emotion-based Music Recommender
-
 Discover music that matches your mood with the Emotion-based Music Recommender. Express your emotions or describe your day, and let the app recommend the perfect music track based on your feelings.
 
 ## Link to the Demo of the application
