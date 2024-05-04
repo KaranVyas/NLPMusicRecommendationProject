@@ -1,6 +1,11 @@
 # HarmoniFeel: The Emotive Music Matchmaker
 
+# Emotion-based Music Recommender
+
 Discover music that matches your mood with the Emotion-based Music Recommender. Express your emotions or describe your day, and let the app recommend the perfect music track based on your feelings.
+
+## Link to the Demo of the application
+https://drive.google.com/file/d/1-RdHJGUm5Awxy2i0ld4IDHIY_zHlQJve/view?usp=drive_link
 
 ## How It Works
 
@@ -20,6 +25,12 @@ Explore new music genres and artists that match your mood. Whether you're feelin
 
 **Note:** This README provides a high-level overview for end users. Developers can refer to the full documentation for technical details shared below.
 
+# Steps to run:
+1. Install Flask
+2. Install all the dependencies listed in requirements.txt
+3. Navigate to the EmotionBasedMusicRecommender directory, open the terminal and run : python run.py
+4. The application be be running and please click on the link generated below the command to open the application
+
 # Methodology:
 ## Emotion Detection Model
 
@@ -31,7 +42,7 @@ Our emotion detection model will be implemented using advanced deep learning neu
 
 ## Music Database
 
-We will have a self curated Spotify playlist with 250-300 songs, each representing various emotions from our set.
+We will have a self curated Spotify playlist with ~ 500 songs, each representing various emotions from our set.
 Each song's emotional content will be analyzed based on lyrics, again with the help of ChatGPT, and cataloged in a CSV file with details like song name, emotions, and track ID(Spotify song ID). Each song is expected to be labelled with 3 emotions from our predetermined emotion list.
 
 ## User Interface
